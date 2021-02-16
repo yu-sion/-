@@ -1,0 +1,27 @@
+.Main_Body{
+    width: 1000px;
+    height: 1200px;
+    border : rgb(53,108,242) solid 5px;
+    margin : 0 auto;
+    display: block;
+}
+
+.Main_Form{
+    width: 100%;
+}
+.Main_Form_Value{
+    text-align: center;
+    padding-top: 100px;
+}
+.Main_inputTable{
+    margin: 0 auto;
+}
+.Main_inputTable>tr{
+    padding-bottom: 30px;
+}
+td:nth-child(2n){
+    width: 200px;
+}
+td>input{
+    width: 100%;
+}

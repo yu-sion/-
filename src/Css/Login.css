@@ -1,0 +1,56 @@
+.Login_Main{
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: rgba(53,108,242,0.7);
+    margin-top: 30px;
+    /* border : black solid 5px; */
+}
+
+.Login_Frame{
+    width: 100%;
+    height: 100%;
+}
+
+.Login_Logo{
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: white solid 5px;
+}
+.Login_Logo>p{
+    font-weight: 900;
+    font-size : 100px;
+    margin-top: 0;
+    line-height: 150px;
+    color: white;
+}
+.Login_Btn_Frame{
+    display: inline-block;
+    width: 100%;
+}
+
+.Login_Btn{
+    width: 300px;
+    margin : 0 auto;
+    margin-top : 20%;
+}
+.Login_Btn>button{
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+}
+.Login_Btn>button>div>svg>g>path{
+    width: 100px;
+    height: 100px;
+
+}
+.Login_Btn>button>span{
+    width: 100%;
+    font-size : 30px;
+    text-align: center;
+}
+
+

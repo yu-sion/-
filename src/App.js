@@ -1,12 +1,13 @@
-import './App.css';
-import Login from './components/login.js';
-import Home from './components/home.js';
-import Main from './components/main.js';
+import Login from './Components/Login';
+import Home from './Components/Home';
+import Main from './Components/Main';
 import {
   BrowserRouter as Router,
   Route, Switch
 } from 'react-router-dom';
 import { useState } from 'react';
+
+
 function App() {
   const [userData,setUserData] = useState()
 
@@ -18,7 +19,7 @@ function App() {
             <Login setUserData={setUserData} />
           </Route>
           <Route exact path='/home'> 
-            <Home userData={userData}/>
+            <Home userData={userData} setUserData={setUserData}/>
           </Route>
           <Route exact path='/main'>
             <Main userData={userData} setUserData={setUserData}/>
